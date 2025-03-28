@@ -1,0 +1,23 @@
+Source Location Report
+Summary report:
+DEWLIVE objects:
+    Objects with source in library DEWSRC: 14
+
+Detail report:
+DEWLIVE objects:
+    Objects with source in library DEWSRC:
+        *MODULE RPGLE   DEWLIVE/CUSMAIN                     
+        *FILE DSPF      DEWLIVE/MAINMENU                    
+        *MODULE RPGLE   DEWLIVE/CUSMNT                      
+        *FILE LF        DEWLIVE/CUSMSTL1                    
+        *FILE PF        DEWLIVE/CUSMST                      
+        *FILE DSPF      DEWLIVE/MNTMENU                     
+        *MODULE RPGLE   DEWLIVE/SCHNAM                      
+        *FILE LF        DEWLIVE/CUSMSTL3                    
+        *FILE DSPF      DEWLIVE/SCHNAMD                     
+        *MODULE RPGLE   DEWLIVE/SCHZIP                      
+        *FILE LF        DEWLIVE/CUSMSTL2                    
+        *FILE DSPF      DEWLIVE/SCHZIPD                     
+        *PGM RPGLE      DEWLIVE/SCHNAMRPG                   
+        *CMD            DEWLIVE/CUSTMAINT                   
+End of Source Location Report.

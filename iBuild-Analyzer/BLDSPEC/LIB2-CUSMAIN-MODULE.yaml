@@ -1,0 +1,32 @@
+---
+targets:
+  LIB2-CUSMAIN-MODULE :
+    objlib: LIB2
+    objname: CUSMAIN
+    objtype: MODULE
+    objattr: RPGLE
+    protected: no
+    requisites :
+      - QRPGLESRC.FILE/CUSMAIN.MBR
+      - QDDSSRC.FILE/MAINMENU.MBR
+    buildorderrequisites :
+      - MAINMENU.FILE
+    requisiteyamlrecords :
+      - LIBL-QRPGLESRC-SRCMBR-CUSMAIN
+      - LIB2-MAINMENU-FILE
+    command: CRTRPGMOD
+    parameters:
+      - "SRCFILE(QRPGLESRC)"
+      - "SRCMBR(CUSMAIN)"
+      - "TGTCCSID(37)"
+      - "PRFDTA(*NOCOL)"
+      - "SRTSEQ(*HEX)"
+      - "LANGID(*JOBRUN)"
+      - "MODULE($(LIB2)/CUSMAIN)"
+      - "STGMDL(*INHERIT)"
+  LIBL-QRPGLESRC-SRCMBR-CUSMAIN :
+    objlib: "*LIBL"
+    objname: QRPGLESRC
+    objtype: SRCMBR
+    objattr: "RPGLE"
+    mbrname: CUSMAIN
